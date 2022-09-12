@@ -220,8 +220,5 @@ if __name__ == '__main__':
 '''
 git add .
 git commit -am "make it better"
-git push heroku master
-heroku ps:scale worker=1
-
-heroku logs -n 1500
+git push -u origin main 
 '''
